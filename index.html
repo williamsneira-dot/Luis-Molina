@@ -1,1 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Eduardo Molina Bravo - Tarjeta Digital</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+        body { background-color: #f1f5f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 16px; }
+        .card { background: #ffffff; width: 100%; max-width: 400px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); padding: 24px; text-align: center; }
+        .profile-img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; border: 3px solid #0f172a; }
+        h1 { font-size: 1.25rem; color: #0f172a; margin-bottom: 4px; }
+        h2 { font-size: 0.95rem; color: #2563eb; font-weight: 600; margin-bottom: 4px; }
+        p { font-size: 0.85rem; color: #64748b; margin-bottom: 2px; }
+        .badges { margin: 12px 0 20px 0; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+        .badge { background: #e2e8f0; color: #334155; font-size: 0.75rem; padding: 4px 10px; border-radius: 12px; font-weight: 500; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .btn { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 12px 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; text-decoration: none; color: #1e293b; font-size: 0.8rem; font-weight: 600; gap: 6px; }
+        .btn-full { grid-column: span 2; background: #0f172a; color: #ffffff; border: none; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="foto.jpg" alt="Luis Eduardo Molina Bravo" class="profile-img">
+        <h1>Luis Eduardo Molina Bravo</h1>
+        <h2>Gerente General</h2>
+        <p>Arquitecto</p>
+        
+        <div class="badges">
+            <span class="badge">Socio Empresa CChC</span>
+            <span class="badge">Socio APECH AIAP</span>
+        </div>
 
+        <div class="grid">
+            <a href="contacto.vcf" class="btn btn-full">📇 Guardar en Contactos</a>
+            <a href="https://wa.me/56967216993" target="_blank" class="btn">💬 WhatsApp</a>
+            <a href="tel:+56967216993" class="btn">📞 Llamar</a>
+            <a href="mailto:consultoramolina@gmail.com" class="btn">✉️ Correo</a>
+            <a href="https://www.consultoramolina.cl" target="_blank" class="btn">🌐 Web</a>
+            <a href="https://www.linkedin.com/in/luis-eduardo-molina-bravo-1b4b36aa/" target="_blank" class="btn btn-full">🔗 LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
