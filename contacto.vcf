@@ -1,1 +1,12 @@
-
+BEGIN:VCARD
+VERSION:3.0
+N:Molina Bravo;Luis Eduardo;;;
+FN:Luis Eduardo Molina Bravo
+ORG:Consultora Molina SpA
+TITLE:Gerente General / Arquitecto
+TEL;TYPE=CELL,VOICE:+56967216993
+EMAIL:consultoramolina@gmail.com
+URL;TYPE=WORK:https://www.consultoramolina.cl
+URL;TYPE=LinkedIn:https://www.linkedin.com/in/luis-eduardo-molina-bravo-1b4b36aa/
+NOTE:Socio Empresa CChC | Socio APECH AIAP
+END:VCARD
